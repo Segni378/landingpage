@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Original+Surfer&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Montserrat:wght@200&display=swap');.shopnow__container {
+    text-align: left;
+    padding: 1rem 2rem 1rem 2rem;
+   
+}
+
+.shopnow__container h1 {
+    font-family: 'Original Surfer', cursive;
+    color: var(--primary-color);
+    text-align: center;
+}
+.products__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.product__container {
+    margin: 3rem auto;
+    width: 320px;
+    height: 320px;
+}
+.product__img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    over-flow: hidden;
+}
+
+.product__img img {
+    width: 100%;
+    height: 100%;
+}
+
+.product__img a {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #000;
+    width: 100%;
+    height: 30px;
+    background-color: #fff;
+    opacity: 0.8;
+    transition: 0.1s all ease-out;
+    visibility: hidden;
+    text-align: center;
+    transform: translateY(30px);
+}
+
+.product__container:hover {
+    cursor: pointer;
+    
+}
+.product__container:hover .product__img a {
+    visibility: visible;
+    transform: translateY(0);
+    
+}
+.product__img span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 2px;
+    width: 120px;
+    background-color: var(--primary-color);
+    text-align: center;
+    color: #fff;
+}
+
+.product-desc {
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+}
+
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 2rem;
+
+}
+
+.pagination .page-num {
+    padding: 8px 5px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.pagination .active {
+    cursor: default;
+    color: blue; 
+}
+
+.view__more {
+    text-align: center;
+    background-color: #6ABE52;
+    color: #fff;
+    display: block;
+    width: 150px;
+    border-radius: 22px;
+    padding: 8px 10px 8px 10px;
+    margin: 1rem auto;
+}
+
+.view__more:hover {
+    background-color: yellowgreen;
+}

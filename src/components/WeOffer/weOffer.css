@@ -1,0 +1,21 @@
+.services__container {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.services__heading {
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.services__heading h1 {
+    color: var(--primary-color);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 3rem;
+}
+.services__heading span {
+    color: #A0E65C;
+}
+
+

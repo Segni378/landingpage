@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&family=Open+Sans:wght@300&display=swap');
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    height: 8rem;
+    padding-left: 4rem;
+    background-color: #fff;
+    position: sticky; 
+    top: 0;
+    z-index: 1000;
+}
+
+.nav__links-container {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-left: 2.3rem;
+}
+
+.log {
+    display: flex;
+    flex-direction: column;
+    margin-right: 1rem;
+    padding: 1.4rem 0.2rem 1rem 0;
+    
+}
+
+.qizaa-logo {
+    height: 5rem;
+    width: 5rem;
+}
+.nav__links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    font-size: 16px;
+    /* padding: 2rem; */
+}
+
+.nav__item {
+    margin-left: 1.4rem;
+}
+
+.nav__link {
+    color: #000;
+    font-weight: bold;
+}
+.nav__link:hover {
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+#home-link {
+    color: var(--primary-color);
+}
+
+.nav__item.drop-down span{
+    margin-bottom: 5rem
+} 
+.nav__item.drop-down:hover div{
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    background-color: lightgray;
+    
+}
+.nav__item div{
+    display: none;
+    transition: 0.3s all ease-in-out;
+}
+.nav__item div ul{
+    padding: 5px 10px 5px 10px;
+}
+.nav__icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 20px;
+}
+
+.nav__user {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    padding: 1rem;
+}
+.nav__user a{
+   color: #000;
+}
+.nav__user a:hover{
+   color: purple;
+}
+.nav__icon {
+    margin-left: 10px;
+}
+.nav__icon span {
+    padding: 2px 5px 2px 5px;
+    background-color: var(--primary-color);
+    color: #fff;
+    border-radius: 50%;
+    
+}
+.cart-icon, .user-icon {
+    font-size: 1.9rem;
+}
+
+.cart-icon {
+    color: var(--primary-color);
+}
+
+.nav__item span {
+    font-weight: bold;
+}

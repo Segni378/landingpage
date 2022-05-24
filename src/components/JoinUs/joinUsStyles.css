@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+.joinUs__container {
+    padding: 5rem;
+}
+.banner{
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    height: 35rem;
+    padding: 2rem;
+}
+.banner h3 {
+    font-family: 'Comfortaa', cursive;
+    font-size: 28px;
+    color: #6ABE52;
+}
+.banner h2 {
+    font-size: 28px;
+    color: #6ABE52;
+    margin-top: 2rem;
+    color: #000;
+    font-size: 22px;
+}
+
+.banner form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+
+}
+.banner form input {
+    width: 300px;
+    border: 2px solid grey;
+    outline: none;
+    padding-left: 1rem;
+    height: 40px;
+}
+.banner button {
+    background-color: #6ABE52;
+    padding: 5px 15px 5px 15px;
+    color: #fff;
+    border: none;
+    border-radius: 22px;
+    width: 100px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.banner .icons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 5rem;
+    color: #004AAD;
+    font-size: 22px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+}
